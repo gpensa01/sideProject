@@ -1,0 +1,33 @@
+body
+{
+  background-color: #5B6CF8;
+  font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navigationBar li {
+  background-color: white;
+  color: black;
+  display: inline;
+}
+
+.navigationBar {
+  background-color: black;
+  padding: 1rem!important;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navigationBar a {
+  text-align: center;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  display: block!important;
+}
+
+.navigationBar a:hover {
+  background-color: #EA3DB8;
+  color: black;
+  text-align: center;
+}
